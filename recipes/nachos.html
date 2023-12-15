@@ -3,13 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>nachos recipe</title>
 </head>
 <body>
 
-    <h1>Nacho Grande</h1>
-    <img src="https://www.santitas.com/sites/santitas.com/files/2023-03/nachos-recipe.png" alt="Nachos" height="310" width="310">
-    <p>"A tasty mexican Nacho Recipe"</p>
+    <div class="nachogrande"><h1>Nacho Grande</h1></div>
+
+    <div class="nachofoto"><img src="https://www.santitas.com/sites/santitas.com/files/2023-03/nachos-recipe.png" alt="Nachos" height="400" width="auto"></div>
     
+    <div class="tastyrep"><h2>"A tasty mexican Nacho Recipe"</h2> </div>
+
+    <div class="navbar" id="scrollToTopBtn" onclick="scrollToTop()">
+        Home
+      </div>
+
+
+
+
+<div class="lijst">
+        <hr> 
+    <h3>For the spice mix:</h3>
+        <hr>
+            <ul> 
+                <li>2 tablespoons chili powder</li>
+                <li>1 1/2 teaspoons kosher salt</li>
+                <li>1 teaspoon granulated garlic</li>
+                <li>1 teaspoon granulated onion</li>
+                <li>1 teaspoon ground cumin</li>
+                <li>1/2 teaspoon dried oregano</li>
+                <li>1/4 teaspoon black pepper</li>
+                <li>Pinch of cayenne pepper (optional)</li>
+            </ul>
+                <hr>        
+                <h3>For the nachos:</h3>
+                <hr>
+            <ul>
+
+                <li>1 teaspoon vegetable oil</li>
+                <li>1 pound ground beef (80:20 lean-to-fat ratio)</li>
+                <li>16 ounces (2 cups) refried beans, canned or homemade</li>
+                <li>1/4 cup water</li>
+                <li>1 large bag of tortilla chips</li>
+                <li>4 ounces cheddar cheese, grated (about 2 cups), plus more for topping</li>
+                <li>4 ounces Colby Jack cheese, grated (about 2 cups), plus more for topping</li>
+                <li>1 cup pico de gallo, store-bought or homemade, plus more for topping</li>
+                <li>1/4 cup chopped cilantro</li>
+                <li>1 jalapeño (pickled or fresh), sliced</li>
+                
+            </ul>
+            <hr>
+                <h3>Optional toppings:</h3>
+            <hr>
+            <ul>
+
+                <li>Guacamole</li>
+                <li>Salsa</li>
+                <li>Sour cream</li>
+                <li>Canned black olives</li>
+                <li>Sliced green onions</li>
+                <li>Shredded lettuce</li>
+                <li>Corn</li>
+                <li>Hot sauce</li>
+
+                
+</ul>
+</div>
+
+<div class="lijst">
+<hr>
+<h3>Nachos Instructions:</h3>
+<hr>
+<ol>
+    <li><strong>Preheat your oven:</strong> Set it to the temperature specified on the tortilla chip package.</li>
+    <li><strong>Heat vegetable oil:</strong> In a skillet, warm 1 teaspoon of vegetable oil over medium heat.</li>
+    <li><strong>Cook ground beef:</strong> Add 1 pound of ground beef (80:20 lean-to-fat ratio) and cook until browned. Drain excess fat if necessary.</li>
+    <li><strong>Combine with beans:</strong> Stir in 16 ounces (2 cups) of refried beans and 1/4 cup of water. Cook until heated through.</li>
+    <li><strong>Arrange tortilla chips:</strong> Lay a single layer of tortilla chips on a baking sheet or oven-safe dish.</li>
+    <li><strong>Add beef and beans:</strong> Spoon the beef and bean mixture over the chips.</li>
+    <li><strong>Sprinkle with cheese:</strong> Add 4 ounces of grated cheddar cheese and 4 ounces of grated Colby Jack cheese over the nachos.</li>
+    <li><strong>Bake in the oven:</strong> Cook in the preheated oven until the cheese is melted and bubbly.</li>
+    <li><strong>Top and garnish:</strong> Remove from the oven and top with 1 cup of pico de gallo, 1/4 cup of chopped cilantro, and sliced jalapeños to taste.</li>
+    <li><strong>Serve immediately:</strong> Enjoy your delicious nachos!</li>
+</ol>
+</div>
+
+<script>
+    window.onscroll = function() { scrollFunction(); };
+
+    function scrollFunction() {
+      var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollToTopBtn.style.display = "block";
+      } else {
+        scrollToTopBtn.style.display = "none";
+      }
+    }
+    function scrollToTop() {
+      window.location.href = '../index.html';
+    }
+  </script>
+
 </body>
 </html>

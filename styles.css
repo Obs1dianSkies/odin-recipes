@@ -1,0 +1,33 @@
+
+body {
+    background: linear-gradient(90deg, #f0bfbf, #DDEFBB);
+   
+}
+
+.nachogrande {
+    color: brown;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.linkz {
+    color: brown;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.linkz ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding for lists */
+}
+
+.linkz li {
+    margin-bottom: 10px; /* Optional: Add some spacing between list items */
+}
+
+.linkz a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit color from parent (.linkz) */
+}

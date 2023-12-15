@@ -4,12 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lasagna recipe</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
-    <h1>Lasagna Extra Fromage</h1>
-    <img src="https://www.modernhoney.com/wp-content/uploads/2019/08/Classic-Lasagna-14-scaled.jpg" alt="lasagna" height="310" width="310">
-    <p>A creamy cheesy lasagna recipe. </p>
+    <div class="navbar" id="scrollToTopBtn" onclick="scrollToTop()">
+        Home
+      </div>
+
+    <div class="nachogrande"><h1>Lasagna Extra Fromage</h1></div>
+
+    <div class="nachofoto"><img src="https://www.modernhoney.com/wp-content/uploads/2019/08/Classic-Lasagna-14-scaled.jpg" alt="lasagna" height="400" width="auto"></div>
+    
+    <div class="tastyrep"><h2>"A creamy cheesy lasagna recipe"</h2> </div>
+
+    <div class="lijst">
+        <hr> 
+        <h3>Ingredients:</h3>
+    <hr>
+        <ul> 
+            <li>1 pound sweet Italian sausage</li>
+            <li>¾ pound lean ground beef</li>
+            <li>½ cup minced onion</li>
+            <li>2 cloves garlic, crushed</li>
+            <li>1 (28 ounce) can crushed tomatoes</li>
+            <li>2 (6.5 ounce) cans canned tomato sauce</li>
+            <li>2 (6 ounce) cans tomato paste</li>
+            <li>½ cup water</li>
+            <li>2 tablespoons white sugar</li>
+            <li>4 tablespoons chopped fresh parsley, divided</li>
+            <li>1 ½ teaspoons dried basil leaves</li>
+            <li>1 ½ teaspoons salt, divided, or to taste</li>
+            <li>1 teaspoon Italian seasoning</li>
+            <li>½ teaspoon fennel seeds</li>
+            <li>¼ teaspoon ground black pepper</li>
+            <li>12 lasagna noodles</li>
+            <li>16 ounces ricotta cheese</li>
+            <li>1 egg</li>
+            <li>¾ pound mozzarella cheese, sliced</li>
+            <li>¾ cup grated Parmesan cheese</li>
+        </ul>
+    </div>
+
+    <div class="lijst">
+        <hr>
+        <h3>Instructions:</h3>
+        <hr>
+        <ol>
+            <li><strong>Prepare the Meat Mixture:</strong> In a large skillet or saucepan, cook 1 pound of sweet Italian sausage and 3/4 pound of lean ground beef over medium heat until browned. Break the meat into smaller pieces as it cooks.</li>
+            <li><strong>Add Aromatics:</strong> Add 1/2 cup of minced onion and 2 cloves of crushed garlic to the meat mixture. Sauté until the onions are soft and translucent.</li>
+            <li><strong>Incorporate Tomatoes:</strong> Stir in 1 can (28 ounces) of crushed tomatoes, 2 cans (6.5 ounces each) of canned tomato sauce, and 2 cans (6 ounces each) of tomato paste.</li>
+            <li><strong>Adjust Sweetness and Seasoning:</strong> Pour in 1/2 cup of water and add 2 tablespoons of white sugar. Mix well. Add 1 1/2 teaspoons of dried basil leaves, 1 1/2 teaspoons of salt (divided, or to taste), 1 teaspoon of Italian seasoning, 1/2 teaspoon of fennel seeds, and 1/4 teaspoon of ground black pepper. Adjust seasoning as needed.</li>
+            <li><strong>Simmer and Enhance Flavor:</strong> Bring the sauce to a gentle simmer. Allow it to cook for at least 30-40 minutes, stirring occasionally to meld the flavors. If desired, you can let it simmer longer for a richer taste.</li>
+            <li><strong>Prepare Lasagna Noodles:</strong> Cook 12 lasagna noodles according to the package instructions. Drain and set aside.</li>
+            <li><strong>Prepare Cheese Mixture:</strong> In a separate bowl, combine 16 ounces of ricotta cheese, 1 beaten egg, and 2 tablespoons of chopped fresh parsley. Mix well.</li>
+            <li><strong>Assemble the Lasagna:</strong> Preheat your oven to the temperature specified on your lasagna noodle package. In a baking dish, layer the meat sauce, cooked lasagna noodles, ricotta mixture, sliced mozzarella cheese, and grated Parmesan cheese. Repeat the layers until all ingredients are used, finishing with a layer of cheese on top.</li>
+            <li><strong>Bake:</strong> Cover the baking dish with foil and bake in the preheated oven until the cheese is melted and bubbly, typically around 25-30 minutes.</li>
+            <li><strong>Serve:</strong> Allow the lasagna to cool slightly before serving. Garnish with the remaining chopped fresh parsley if desired.</li>
+        </ol>
+    </div>
+    
+
+    <script>
+        window.onscroll = function() { scrollFunction(); };
+    
+        function scrollFunction() {
+          var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollToTopBtn.style.display = "block";
+          } else {
+            scrollToTopBtn.style.display = "none";
+          }
+        }
+        function scrollToTop() {
+          window.location.href = '../index.html';
+        }
+      </script>
+
+
+
+   
 
 </body>
 </html>
